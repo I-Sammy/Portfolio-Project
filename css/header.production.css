@@ -1,0 +1,52 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  border-bottom: undefined;
+}
+.page-header_item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 200px;
+          flex: 0 1 200px;
+}
+.page-header .page-header_item:last-child {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: right;
+}
+
+#navigation-container {
+    position: relative;
+    background-color: undefined;
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-between;*/
+}
+.main-navigation a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    padding: 5px 25px;
+    opacity: 0.7;
+}
+.navigation-list {
+  list-style-type: none;
+}
+.navigation-list li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.navigation-list_item--active{
+    background-color: undefined;
+}

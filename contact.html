@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+  <link rel="shortcut icon" href="img/favicon1-32x32.png">
+<!-- Adding css stylesheeets-->
+  <!-- link to reset default styles -->
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+ <!-- Adding css stylesheeets for google fonts-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+ <!-- End of Adding css stylesheeets for google fonts-->
+ <link href="./css/style.production.css" type="text/css" rel="stylesheet">
+ <link href="./css/header.css" type="text/css" rel="stylesheet">
+ <link href="./css/footer.css" type="text/css" rel="stylesheet">
+<!-- End of Adding css stylesheeets-->
+  <style>
+
+  </style>
+</head>
+<body>
+  <div class="pagearea">
+    <header class="page-header">
+      <img src="img/Samia Islam Logo.png" height="100" width="200" alt="Logo" class="main-navigation page-header_item">
+        <nav id="navigation-container" class="main-navigation page-header_item">
+          <ul role="menubar" class="navigation-list">
+            <li role="presentation"><a href="index.html" role="menuitem" class="navigation-list_item">Home |</a></li>
+            <li role="presentation"><a href="about.html" role="menuitem" class="navigation-list_item">About Me|</a></li>
+            <li role="presentation"><a href="work.html" role="menuitem" class="navigation-list_item">Work |</a></li>
+            <li role="presentation"><a href="contact.html" role="menuitem" class="navigation-list_item navigation-list_item--active">Contact |</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <h3>Submit your queries here:</h3>
+      <form id="contact-form" action="contact.html" method="post">
+        <table>
+          <tbody>
+            <tr>
+              <td><label id=lblFullName for="txtFullNmae" class="standard-label">Full Name: </label></td>
+              <td><input id="txtFullNmae" type="text" required/></td>
+            </tr>
+            <tr>
+              <td><label id="lblEmail" for="txtEmail" class="standard-label">Email: </label></td>
+              <td><input id="txtEmail" type="email" required placeholder="Please enter a valid email address."/></td>
+            </tr>
+            <tr>
+              <td><label id="lblMessage" for="txtMessage" class="standard-label">Message: </label></td>
+              <td><textarea id="txtMessage" rows="8" cols="50" required minlength="10" maxlength="240"></textarea></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input type="submit" value="Submit" role="button"/></td>
+              <!--<td><button type="button" name="btnSubmit" value="Submit" role="button">Submit</ button></td>-->
+            </tr>
+          </tbody>
+        </table>
+      </form>
+      <br>
+
+      <h3>Contact Information:</h3>
+      <p> Email: <a href = "mailto: abc@example.com">abc@example.com</a></p>
+      <p> Phone: <a href="tel:123-456-7890" aria-label="presentation" id="my-telnum" class="my-telnum">(123) 456-7890</a></p>
+      <p>Click for a Skype Call: <a href="skype:dark.anemone?call"><img src="./img/skype icon.png" alt="skype icon"></a></p>
+      <br>
+
+    </main>
+    <footer class="page-footer" role="footer-content">
+      <p>Find me on</p>
+      <div class="social-media">
+        <a href="https://www.github.com"><img src="./img/github.svg" height="30" width="30" alt="GitHub"></a>
+        <a href="https://www.twitter.com"><img src="./img/twitter.svg" height="30" width="30" alt="Twitter"></a>
+        <a href="https://au.linkedin.com"><img src="./img/linkedin.svg" height="30" width="30" alt="LinkedIn"></a>
+      </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+  <div>
+</body>
