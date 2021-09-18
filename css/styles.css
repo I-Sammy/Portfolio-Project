@@ -89,7 +89,10 @@ input, texture, select, button,.button {
   font-family: system-ui;
 }
 
-input[type="submit"], .button, a.downloadbutton, a.linkbutton{
+input[type="submit"],
+  .button,
+  a.downloadbutton,
+  a.linkbutton{
   border: none;
   display:inline-block;
   font-family: inherit;
@@ -103,19 +106,22 @@ input[type="submit"], .button, a.downloadbutton, a.linkbutton{
   transition-property: opacity;
 }
 
-input[type="submit"]:hover, input[type="submit"]:focus{
+input[type="submit"]:hover,
+  input[type="submit"]:focus{
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
   /* reduces the opacity of the button to 80% */
   opacity: var(--button-opacity);
 }
-a.downloadbutton:hover, a.downloadbutton:focus{
+a.downloadbutton:hover,
+  a.downloadbutton:focus{
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
   /* reduces the opacity of the button to 80% */
   opacity: var(--button-opacity);
 }
-a.linkbutton:hover, a.linkbutton:focus{
+a.linkbutton:hover,
+  a.linkbutton:focus{
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
   /* reduces the opacity of the button to 80% */
