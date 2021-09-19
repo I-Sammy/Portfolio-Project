@@ -62,10 +62,6 @@ h3 {
 a {
   color: #1F57A3;
 }
-a:hover {
-  /* No underlining when hovering over a link */
-  color: red;
-}
 a:visited {
   /* visited link */
   color: #05676e;
@@ -74,13 +70,13 @@ a:active {
   /* selected link */
   color: #489c79;
 }
+a:hover {
+  /* No underlining when hovering over a link */
+  color: red;
+}
 a:focus {
   /* No underlining when hovering over a link */
   text-decoration: none;
-}
-#my-telnum{
-  /*set the color of tel number link*/
-  color:#1F57A3;
 }
 
 /******Styles for buttons********/
